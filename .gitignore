@@ -1,0 +1,53 @@
+# Environment
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# React / Vite
+frontend/dist/
+frontend/.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Docker
+*.tar
+*.tar.gz
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/crash.log
+
+
+# Kubernetes generated/local files
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.zip
+*.rar
+*.7z
+*.iso
+*.img
+*.bin
+
+# Temporary files
+*.tmp
+*.temp
